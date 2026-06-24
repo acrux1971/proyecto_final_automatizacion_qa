@@ -1,0 +1,81 @@
+2026-06-24 01:03:03,271 INFO talento_tech - Iniciando prueba: test_cart
+2026-06-24 01:03:03,272 INFO talento_tech - Agregando el primer producto al carrito
+2026-06-24 01:03:03,335 INFO talento_tech - Verificando contador de productos en el carrito
+2026-06-24 01:03:03,390 INFO talento_tech - Contador del carrito actualizado correctamente
+2026-06-24 01:03:03,390 INFO talento_tech - Obteniendo nombre del producto agregado
+2026-06-24 01:03:03,414 INFO talento_tech - Producto seleccionado: Sauce Labs Backpack
+2026-06-24 01:03:03,414 INFO talento_tech - Accediendo al carrito de compras
+2026-06-24 01:03:03,478 INFO talento_tech - Obteniendo producto almacenado en el carrito
+2026-06-24 01:03:03,517 INFO talento_tech - Producto encontrado en carrito: Sauce Labs Backpack
+2026-06-24 01:03:03,517 INFO talento_tech - Validando coincidencia del producto
+2026-06-24 01:03:09,595 INFO talento_tech - Iniciando prueba: test_cart_json
+2026-06-24 01:03:09,596 INFO talento_tech - Creando instancia de InventoryPage
+2026-06-24 01:03:09,596 INFO talento_tech - Creando instancia de CartPage
+2026-06-24 01:03:09,596 INFO talento_tech - Leyendo productos desde el archivo JSON
+2026-06-24 01:03:09,596 INFO talento_tech - Agregando producto al carrito: Sauce Labs Backpack ($29.99)
+2026-06-24 01:03:09,705 INFO talento_tech - Agregando producto al carrito: Sauce Labs Bike Light ($9.99)
+2026-06-24 01:03:09,781 INFO talento_tech - Accediendo al carrito de compras
+2026-06-24 01:03:09,844 INFO talento_tech - Obteniendo productos del carrito
+2026-06-24 01:03:09,927 INFO talento_tech - Validando productos agregados al carrito
+2026-06-24 01:03:09,927 INFO talento_tech - Producto validado correctamente: Sauce Labs Backpack
+2026-06-24 01:03:09,927 INFO talento_tech - Producto validado correctamente: Sauce Labs Bike Light
+2026-06-24 01:03:09,927 INFO talento_tech - Validacion completada. Se verificaron 2 productos.
+2026-06-24 01:03:09,927 INFO talento_tech - Finaliza prueba: test_cart_json
+2026-06-24 01:03:16,477 INFO talento_tech - Iniciando prueba: test_inventory_title
+2026-06-24 01:03:16,477 INFO talento_tech - Creando instancia de InventoryPage
+2026-06-24 01:03:16,477 INFO talento_tech - Obteniendo titulo de la pagina
+2026-06-24 01:03:16,480 INFO talento_tech - Validando titulo de la pagina
+2026-06-24 01:03:16,480 INFO talento_tech - Titulo validado correctamente
+2026-06-24 01:03:16,480 INFO talento_tech - Finaliza prueba: test_inventory_title
+2026-06-24 01:03:20,163 INFO talento_tech - Iniciando prueba: test_productos_visibles
+2026-06-24 01:03:20,163 INFO talento_tech - Creando instancia de InventoryPage
+2026-06-24 01:03:20,163 INFO talento_tech - Obteniendo listado de productos
+2026-06-24 01:03:20,172 INFO talento_tech - Validando que existan productos en la pagina
+2026-06-24 01:03:20,172 INFO talento_tech - Se encontraron 6 productos visibles
+2026-06-24 01:03:20,173 INFO talento_tech - Finaliza prueba: test_productos_visibles
+2026-06-24 01:03:24,221 INFO talento_tech - Iniciando prueba: test_ui_elements
+2026-06-24 01:03:24,221 INFO talento_tech - Creando instancia de InventoryPage
+2026-06-24 01:03:24,221 INFO talento_tech - Verificando visibilidad del menu
+2026-06-24 01:03:24,359 INFO talento_tech - Menu visible correctamente
+2026-06-24 01:03:24,359 INFO talento_tech - Verificando visibilidad del filtro de productos
+2026-06-24 01:03:24,373 INFO talento_tech - Filtro visible correctamente
+2026-06-24 01:03:24,374 INFO talento_tech - Finaliza prueba: test_ui_elements
+2026-06-24 01:03:27,442 INFO talento_tech - Inicializando el driver para test_login_ok
+2026-06-24 01:03:27,442 INFO talento_tech - Creando instancia de LoginPage
+2026-06-24 01:03:27,442 INFO talento_tech - Ingresando credenciales validas
+2026-06-24 01:03:28,443 INFO talento_tech - Verificando redireccion a la pagina de inventario
+2026-06-24 01:03:28,446 INFO talento_tech - Login exitoso. Se redirigio correctamente al inventario
+2026-06-24 01:03:28,446 INFO talento_tech - Finaliza test_login_ok
+2026-06-24 01:03:31,847 INFO talento_tech - Inicializando el driver para test_login_invalid_password
+2026-06-24 01:03:31,848 INFO talento_tech - Creando instancia de LoginPage
+2026-06-24 01:03:31,848 INFO talento_tech - Ingresando usuario valido con contraseña invalida
+2026-06-24 01:03:34,470 INFO talento_tech - Obteniendo mensaje de error
+2026-06-24 01:03:34,501 INFO talento_tech - Verificando que el mensaje de error sea el esperado
+2026-06-24 01:03:34,501 INFO talento_tech - Se mostro correctamente el mensaje de error por contraseña invalida
+2026-06-24 01:03:34,501 INFO talento_tech - Finaliza test_login_invalid_password
+2026-06-24 01:03:37,577 INFO talento_tech - Iniciando test de login para el usuario: standard_user
+2026-06-24 01:03:37,577 INFO talento_tech - Creando instancia de LoginPage
+2026-06-24 01:03:37,577 INFO talento_tech - Ingresando credenciales para el usuario: standard_user
+2026-06-24 01:03:40,761 INFO talento_tech - Intentando iniciar sesion
+2026-06-24 01:03:40,761 INFO talento_tech - Usuario marcado como valido
+2026-06-24 01:03:40,761 INFO talento_tech - Verificando redireccion a la pagina de inventario
+2026-06-24 01:03:40,764 INFO talento_tech - Login exitoso para el usuario: standard_user
+2026-06-24 01:03:40,765 INFO talento_tech - Finaliza test_login para el usuario: standard_user
+2026-06-24 01:03:44,191 INFO talento_tech - Iniciando test de login para el usuario: usuario_incorrecto
+2026-06-24 01:03:44,191 INFO talento_tech - Creando instancia de LoginPage
+2026-06-24 01:03:44,191 INFO talento_tech - Ingresando credenciales para el usuario: usuario_incorrecto
+2026-06-24 01:03:47,736 INFO talento_tech - Intentando iniciar sesion
+2026-06-24 01:03:47,737 INFO talento_tech - Usuario marcado como invalido
+2026-06-24 01:03:47,737 INFO talento_tech - Obteniendo mensaje de error
+2026-06-24 01:03:47,761 INFO talento_tech - Verificando mensaje de error esperado
+2026-06-24 01:03:47,761 INFO talento_tech - Se mostro correctamente el mensaje de error por credenciales invalidas
+2026-06-24 01:03:47,761 INFO talento_tech - Finaliza test_login para el usuario: usuario_incorrecto
+2026-06-24 01:03:50,839 INFO talento_tech - Iniciando test de login para el usuario: standard_user
+2026-06-24 01:03:50,839 INFO talento_tech - Creando instancia de LoginPage
+2026-06-24 01:03:50,839 INFO talento_tech - Ingresando credenciales para el usuario: standard_user
+2026-06-24 01:03:51,671 INFO talento_tech - Intentando iniciar sesion
+2026-06-24 01:03:51,671 INFO talento_tech - Usuario marcado como invalido
+2026-06-24 01:03:51,671 INFO talento_tech - Obteniendo mensaje de error
+2026-06-24 01:03:51,693 INFO talento_tech - Verificando mensaje de error esperado
+2026-06-24 01:03:51,694 INFO talento_tech - Se mostro correctamente el mensaje de error por credenciales invalidas
+2026-06-24 01:03:51,694 INFO talento_tech - Finaliza test_login para el usuario: standard_user

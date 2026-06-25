@@ -6,6 +6,8 @@ Proyecto de Automatizacion de Pruebas realizado con Python, Selenium WebDriver y
 
 Este proyecto tiene como objetivo automatizar pruebas funcionales del sitio web **Sauce Demo**, validando los principales flujos de usuario mediante pruebas automatizadas.
 
+Asimismo se incorporan casos de prueba para la API Publica ReqRes cubriendo los diferentes metodos HTTP: GET, POST, DELETE.
+
 
 ## Funcionalidades Implementadas
 
@@ -20,6 +22,8 @@ Este proyecto tiene como objetivo automatizar pruebas funcionales del sitio web 
 - Uso de fixtures de Pytest para la configuración y cierre automático del navegador.
 - Generación de logs para el seguimiento de la ejecución de las pruebas.
 - Organización de pruebas mediante marcadores personalizados de Pytest (smoke, regression, api, etc.).
+- Automatización de pruebas de API utilizando Requests.
+
 
 ## Tecnologias utilizadas
 
@@ -30,6 +34,7 @@ Este proyecto tiene como objetivo automatizar pruebas funcionales del sitio web 
 - Pytest HTML para la generacion de reporte de tests
 - JSON y CSV para datos de prueba
 - Logging de Python
+- Biblioteca Requests para pruebas de API
 - Git para control de versiones
 - GitHub como repositorio de codigo
 
@@ -51,4 +56,5 @@ Este proyecto tiene como objetivo automatizar pruebas funcionales del sitio web 
 - Test cart: Validacion del proceso de agregado de productos al carrito, incluyendo que el contador se incremente correctamente y que el producto agregado sea el seleccionado en la pagina de inventario.
 - Test login csv: Verifica el comportamiento del proceso de autenticación utilizando múltiples combinaciones de credenciales almacenadas en un archivo CSV.
 - Test cart json: Verifica que los productos definidos en un archivo JSON sean agregados correctamente al carrito de compras y que la información mostrada coincida con los datos esperados.
+- Pruebas API: Cobertura de los siguientes métodos HTTP: GET, POST y DELETE
 
